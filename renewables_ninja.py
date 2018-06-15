@@ -70,7 +70,7 @@ def query_wind(lat, lon, date_from, date_to,
     token = _load_token()
 
     # Send token header with each request
-    s.headers = {'Authorization': 'Token ' + TOKEN}
+    s.headers = {'Authorization': 'Token ' + token}
     
     url = API_BASE + 'data/wind'
     
