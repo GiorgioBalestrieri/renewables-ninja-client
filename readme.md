@@ -2,10 +2,20 @@
 
 This is a (very) minimal Python client for [Renewables Ninja](https://www.renewables.ninja/).
 
+
 ### About Renewables Ninja
-Renewables Ninja is an open source project created by Stefan Pfenninger, 
+[Renewables Ninja](https://www.renewables.ninja/) is an open source project created by Stefan Pfenninger, 
 providing renewable data for PV and Wind energy.
 The project is hosted on [github](https://github.com/renewables-ninja).
+
+
+### Installation
+`renewables_ninja_client` can be installed through pip:
+* `cd` into this folder
+* do `pip install ./`
+
+__note__: check which environment you are using!
+
 
 ### How to use the client
 * go to the renewables ninja website
