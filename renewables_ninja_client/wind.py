@@ -27,12 +27,10 @@ def query_wind(
     ) -> pd.DataFrame:
 
     headers = get_headers(client)
-    date_from = date_to_str(date_from)
-    date_to   = date_to_str(date_to)
 
     params = {
-        'date_from': date_from,
-        'date_to': date_to,
+        'date_from': date_to_str(date_from),
+        'date_to': date_to_str(date_to),
         'lat': lat,
         'lon': lon,
         'height': height,
